@@ -1,0 +1,55 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d6d781;
+}
+
+h1 {
+  color: #b74b04;
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+  padding: 3px;
+}
+
+th {
+  background-color: #db9f77;
+  padding: 3px;
+}
+
+.tablacentro {
+  text-align: center;
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 2px 0px 8px 0px;
+  display: inline-block;
+  border: 0px solid #323276;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #c6c6c6;
+}
+
+input[type=submit] {
+    width: 70%;
+    background-color: #db9f77;
+    color: black;
+    padding: 14px 20px;
+    margin: 32px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ee6103;
+    color: white;
+}
